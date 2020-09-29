@@ -8,7 +8,7 @@ import { ProductPageComponent } from './product-page/product-page.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 import { ComponentNameComponent } from './component-name/component-name.component';
 
-import { ProductService } from './product-description/product.service';
+import { ProductService } from './product.service';
 
 @NgModule({
   declarations: [
