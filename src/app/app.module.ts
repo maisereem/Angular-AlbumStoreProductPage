@@ -10,6 +10,7 @@ import { ComponentNameComponent } from './component-name/component-name.componen
 
 import { ProductService } from './product.service';
 import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ProductTracklistingComponent } from './product-tracklisting/product-tra
     ComponentNameComponent,
     ProductService,
     ProductTracklistingComponent,
+    ProductListComponent,
   ],
   imports: [
     BrowserModule,
